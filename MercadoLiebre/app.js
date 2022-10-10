@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000
 
 
 
-app.listen(PORT, () => console.log('Server on'));
+app.listen(PORT, () => console.log('Server on ${port}'));
 
 
 app.use(express.static(publicPath));
